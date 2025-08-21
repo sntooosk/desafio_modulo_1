@@ -1,0 +1,99 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "add-to-list-btn#custom-shelf",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "add-to-cart-button#buy"
+    ]
+  },
+
+  "product-summary.shelf#custom-shelf-teste": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "add-to-cart-button#buy"
+    ],
+    "props": {
+      "blockClass": "custom-shelf"
+    }
+  },
+
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+  "add-to-list-btn#custom-shelf": {
+    "props": { "blockClass": "custom-shelf" }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "add-to-list-btn#custom-shelf"
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300,
+      "displayMode": "front-back",
+      "blockClass": "custom-shelf"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": { "type": "collection" },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": { "blockClass": "collection" }
+  },
+
+  "product-list-price#summary": {
+    "props": { "blockClass": "summary" }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": { "blockClass": "summary" }
+  },
+  "product-selling-price#summary": {
+    "props": { "blockClass": "summary" }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": ["discount"],
+      "blockClass": "summary"
+    }
+  },
+
+  "add-to-cart-button#buy": {
+    "props": {
+      "blockClass": "buy",
+      "text": "COMPRAR",
+      "hideQuantitySelector": true
+    }
+  }
+}
