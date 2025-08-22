@@ -16,13 +16,6 @@
   margin-bottom: 0.5rem;
 }
 
-.layoutContainer--shelf {
-  margin-top: 200px;
-  margin-bottom: 20px;
-  max-width: 96rem;
-  min-height: 600px;
-}
-
 .slide--shelf {
   margin-bottom: 25px;
   padding-left: 0.5rem;

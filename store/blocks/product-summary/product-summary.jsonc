@@ -32,7 +32,6 @@
 
   "product-summary-image#shelf1": {
     "props": {
-      "blockClass": "pudim",
       "showBadge": false,
       "aspectRatio": "1:1",
       "maxHeight": 300,
@@ -81,9 +80,7 @@
 
   "add-to-cart-button#buy": {
     "props": {
-      "blockClass": "custom-button",
-      "text": "COMPRAR",
-      "hideQuantitySelector": true
+      "text": "COMPRAR"
     }
   }
 }

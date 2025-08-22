@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
+    background: #000000 !important;
+    border: none;
+  }
+
+  :global(.vtex-product-summary-2-x-element) :global(.vtex-button__label) {
+    color: #ffffff !important;
+  }
+
+  :global(.vtex-product-summary-2-x-element)
+    :global(.vtex-button):hover
+    :global(.vtex-button__label) {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+}
