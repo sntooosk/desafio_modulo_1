@@ -48,7 +48,6 @@
       "showBadge": false,
       "aspectRatio": "1:1",
       "maxHeight": 300,
-      "displayMode": "front-back",
       "blockClass": "custom-shelf"
     }
   },
