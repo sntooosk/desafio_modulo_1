@@ -55,7 +55,7 @@
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#custom-shelf-teste"],
+    "blocks": ["product-summary.shelf#custom-shelf1"],
     "children": ["slider-layout#demo-products1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
@@ -69,7 +69,8 @@
         "phone": 1
       },
       "infinite": true,
-      "fullWidth": false
+      "fullWidth": false,
+      "blockClass": "custom-slider"
     }
   },
 
