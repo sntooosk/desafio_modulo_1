@@ -2,6 +2,7 @@
   
   "product-summary.shelf#custom-shelf1": {
     "children": [
+      "add-to-list-btn#custom-shelf",
       "stack-layout#prodsum1",
       "product-summary-name",
       "flex-layout.col#productRating",
@@ -25,8 +26,7 @@
   "stack-layout#prodsum1": {
     "children": [
       "product-summary-image#shelf1",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "add-to-list-btn#custom-shelf"
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
 
