@@ -1,17 +1,26 @@
 @media (max-width: 768px) {
-  :global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
+  :global(.vtex-product-summary-2-x-element--custom-shelf-mobile)
+    :global(.vtex-button) {
     background: #000000 !important;
     border: none;
   }
 
-  :global(.vtex-product-summary-2-x-element) :global(.vtex-button__label) {
+  :global(.vtex-product-summary-2-x-element--custom-shelf-mobile)
+    :global(.vtex-button__label) {
     color: #ffffff !important;
   }
 
-  :global(.vtex-product-summary-2-x-element)
-    :global(.vtex-button):hover
+  :global(.vtex-wish-list-1-x-wishlistIconContainer--custom-shelf-mobile) {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+  }
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button),
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
     :global(.vtex-button__label) {
-    background: #000000 !important;
-    color: #ffffff !important;
+    background: transparent !important;
+    border: none !important;
+    color: transparent !important;
   }
 }
